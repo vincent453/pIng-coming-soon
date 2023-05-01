@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+<!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+<!-- font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body{
+      margin: 0;
+      font-family: 'Work Sans', sans-serif;
+      font-size: 11px;
+      font-weight: bold;
+   
+    }
+    .attribution { font-size: 14px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .header {
+    margin: 5rem 0 0;
+    text-align: center;
+}
+    
+    .light-font {
+    
+    color: rgb(162, 162, 162);
+    font-family: 'Work Sans', sans-serif;
+ 
+    
+}
+.header-title {
+    font-size: 3.5rem;
+    font-family:  sans-serif;
+}
+.header-discription{
+  font-size: 1.5rem;
+  line-height: 3;
+ 
+
+}
+.form{
+  text-align: center;
+}
+.header-input{
+  margin: 0 0 0.5rem;
+    padding: 1.5rem 17rem;
+  border-radius: 3rem;
+  border-width: 1px;
+  padding-left: 2rem;
+ font-size: 1.2rem;
+ 
+
+
+}
+
+button{
+  padding: 1rem 5rem;
+  border-radius: 3rem;
+  border: none;
+  background-color: blue;
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+.bill-board{
+  display: block;
+    width: 58%;
+    margin-left: auto;
+  margin-right: auto;
+  margin-top: 7rem;
+
+
+
+
+}
+.social{
+  text-align: center;
+  font-size: 2.5rem;
+  word-spacing: 1rem;
+  margin-top: 5rem;
+  line-height: 2;
+ 
+}
+.copyright{
+  text-align: center;
+  line-height: 2;
+}
+
+
+@media only screen and (max-width: 320px) {
+	html {
+		font-size: 14px;
+	}
+
+	.header-title {
+		font-size: 2rem;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.form {
+		flex-flow: row wrap;
+		justify-content: space-between;
+	}
+
+	.main {
+		margin: 0 auto;
+	}
+
+	.header-input {
+		margin-bottom: 1;
+		margin-left:1rem;
+   padding: 1rem 10px;
+		flex-basis: 65%;
+
+    
+	}
+
+
+
+
+	.button {
+		flex-grow: 1;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	html {
+		font-size: 14px;
+	}
+
+	.header-title {
+		font-size: 2rem;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	.form {
+		flex-flow: row wrap;
+		justify-content: space-between;
+	}
+
+	.main {
+		margin: 0 auto;
+	}
+
+	.header-input {
+		margin-bottom: 1;
+		margin-left:1rem;
+   padding: 1rem 10px;
+		flex-basis: 65%;
+
+    
+	}
+
+
+
+
+	.button {
+		flex-grow: 1;
+	}
+}
+
+  </style>
+</head>
+<body>
+ 
+  <header class="header">
+  <img src="images/logo.svg" class="header-img">
+<h1 class="header-title">
+
+  <span class="light-font">  We are launching</span>
+  soon!
+</h1>
+<p class="header-discription">Subscribe and get notified</p>
+</header>
+<div class="main">
+<form class="form">
+
+<input class="header-input" type="email" placeholder="Your email address..." required>
+<button type="submit"> Notify Me</button>
+
+<img src="images/illustration-dashboard.png" class="bill-board">
+
+</form>
+
+</div>
+ 
+
+  <footer>
+    <div class="social">
+     <a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fa-brands fa-facebook" style="color: #a1c1f7;"></i></a> 
+      <a href="https://twitter.com/"><i class="fa-brands fa-twitter" style="color: #a1c1f7;"></i></a>
+      <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color: #a1c1f7;"></i></a>
+
+    </div>
+    <p class="copyright">
+      © Copyright Ping. All rights reserved.
+    </p>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Vincent</a>.
+    </p>
+  </footer>
+
+ 
+</body>
+</html>
